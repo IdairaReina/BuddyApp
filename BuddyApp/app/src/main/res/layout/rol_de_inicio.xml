@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <ImageButton
+        android:id="@+id/btn_iniciar_usuario"
+        android:layout_width="464dp"
+        android:layout_height="142dp"
+        android:background="@null"
+        android:contentDescription="Iniciar como Usuario"
+        android:onClick="iniciarComoUsuario"
+        android:src="@drawable/btn_usuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <ImageButton
+        android:id="@+id/btn_iniciar_profesor"
+        android:layout_width="464dp"
+        android:layout_height="173dp"
+        android:background="@null"
+        android:contentDescription="Iniciar como Profesor"
+        android:onClick="iniciarComoProfesor"
+        android:src="@drawable/btn_profesor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" 
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,257 @@
+{
+  "adivinanzas": [
+    {
+      "nivel": "basico",
+      "pregunta": "Que animal dice muuuu",
+      "respuestaCorrecta": "la vaca",
+      "opciones": [
+        {
+          "texto": "el perro",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/perro.jpg"
+        },
+        {
+          "texto": "el caballo",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/caballo.jpg"
+        },
+        {
+          "texto": "el gato",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/gato.jpg"
+        },
+        {
+          "texto": "la vaca",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/vaca.jpg"
+        },
+        {
+          "texto": "la oveja",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/oveja.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "medio",
+      "pregunta": "Vuelo sin alas, lloro sin ojos.",
+      "respuestaCorrecta": "la nube",
+      "opciones": [
+        {
+          "texto": "el libro"
+        },
+        {
+          "texto": "las velas"
+        },
+        {
+          "texto": "la nube"
+        },
+        {
+          "texto": "el pajaro"
+        },
+        {
+          "texto": "el avion"
+        }
+      ]
+    },
+    {
+      "nivel": "dificil",
+      "pregunta": "Si lo nombras, lo rompes",
+      "respuestaCorrecta": "el silencio",
+      "opciones": []
+    },
+    {
+      "nivel": "basico",
+      "pregunta": "Oro parece, plata no es",
+      "respuestaCorrecta": "el platano",
+      "opciones": [
+        {
+          "texto": "la manzana",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/manzana.jpg"
+        },
+        {
+          "texto": "el platano",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/platano.jpg"
+        },
+        {
+          "texto": "el oro",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/oro.jpg"
+        },
+        {
+          "texto": "la plata",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/plata.jpg"
+        },
+        {
+          "texto": "el caballo",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/caballo.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "medio",
+      "pregunta": "Tengo hojas pero no soy arbol, tengo lomo pero no soy animal",
+      "respuestaCorrecta": "el libro",
+      "opciones": [
+        {
+          "texto": "el arbusto"
+        },
+        {
+          "texto": "la lechuga"
+        },
+        {
+          "texto": "el libro"
+        },
+        {
+          "texto": "el platano"
+        },
+        {
+          "texto": "las rosas"
+        }
+      ]
+    },
+    {
+      "nivel": "dificil",
+      "pregunta": "Que tiene dientes pero no come",
+      "respuestaCorrecta": "el peine",
+      "opciones": []
+    },
+    {
+      "nivel": "basico",
+      "pregunta": "Soy ave y soy llana, pero no tengo pico ni alas. Sabes quien soy",
+      "respuestaCorrecta": "la avellana",
+      "opciones": [
+        {
+          "texto": "el pajaro",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/pajaro.jpg"
+        },
+        {
+          "texto": "las rosas",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/rosas.jpg"
+        },
+        {
+          "texto": "el arbusto",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/arbusto.jpg"
+        },
+        {
+          "texto": "el platano",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/platano.jpg"
+        },
+        {
+          "texto": "la avellana",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/avellana.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "medio",
+      "pregunta": "Todos me pisan, pero nadie me puede coger.",
+      "respuestaCorrecta": "la sombra",
+      "opciones": [
+        {
+          "texto": "las rosas"
+        },
+        {
+          "texto": "el viento"
+        },
+        {
+          "texto": "la sombra"
+        },
+        {
+          "texto": "el dinero"
+        },
+        {
+          "texto": "la avellana"
+        }
+      ]
+    },
+    {
+      "nivel": "dificil",
+      "pregunta": "Todos lo pueden abrir, pero nadie lo puede cerrar",
+      "respuestaCorrecta": "el huevo",
+      "opciones": []
+    },
+    {
+      "nivel": "basico",
+      "pregunta": "Sin alas y sin motor, puedo volar sin temor.",
+      "respuestaCorrecta": "la cometa",
+      "opciones": [
+        {
+          "texto": "la piñata",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/pinata.jpg"
+        },
+        {
+          "texto": "la sierra",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/sierra.jpg"
+        },
+        {
+          "texto": "la cometa",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/cometa.jpg"
+        },
+        {
+          "texto": "el libro",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/libro.jpg"
+        },
+        {
+          "texto": "las velas",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/velas.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "medio",
+      "pregunta": "Salgo cuando llueve, desaparezco con el sol, tengo muchos colores y no tengo sabor.",
+      "respuestaCorrecta": "el arcoiris",
+      "opciones": [
+        {
+          "texto": "el arcoiris"
+        },
+        {
+          "texto": "la cometa"
+        },
+        {
+          "texto": "el viento"
+        },
+        {
+          "texto": "la nube"
+        },
+        {
+          "texto": "la pinata"
+        }
+      ]
+    },
+    {
+      "nivel": "dificil",
+      "pregunta": "Cuanto mas me quitas, mas grande soy. Que soy",
+      "respuestaCorrecta": "agujero",
+      "opciones": []
+    },
+    {
+      "nivel": "basico",
+      "pregunta": "No soy flor, pero tengo hojas y en la cocina soy lo mejor.",
+      "respuestaCorrecta": "la lechuga",
+      "opciones": [
+        {
+          "texto": "el platano",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/platano.jpg"
+        },
+        {
+          "texto": "la lechuga",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/lechuga.jpg"
+        },
+        {
+          "texto": "el libro",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/libro.jpg"
+        },
+        {
+          "texto": "el arbusto",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/arbusto.jpg"
+        },
+        {
+          "texto": "las rosas",
+          "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/rosas.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "dificil",
+      "pregunta": "Contengo mares sin olas, caminos sin pasos y tierras sin personas.Que soy",
+      "respuestaCorrecta": "mapa",
+      "opciones": []
+    }
+  ]
+}

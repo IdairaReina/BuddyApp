@@ -1,0 +1,184 @@
+<!-- index.html actualizado - solo se pide la respuesta correcta para las adivinanzas difíciles -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Adivinanzas</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #2a4d9b;
+        }
+
+        fieldset {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #2a4d9b;
+        }
+
+        input[type="text"], select, input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"], button {
+            background-color: #2a4d9b;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, button:hover {
+            background-color: #1f3a73;
+        }
+    </style>
+</head>
+<body>
+<h2>Formulario para añadir adivinanzas</h2>
+<p class="nota">*Tienes que poner las palabras sin signos de puntuación (ni tildes ni 'ñ' ni ¿? o ¡!)</p>
+
+<form method="POST" action="/submit" enctype="multipart/form-data">
+
+    <label><strong>Nombre del fichero (sin extensión):</strong></label>
+    <input type="text" name="nombre_archivo" required placeholder="ej: preguntas de biologia">
+
+    <!-- BASICO -->
+    <h3>Adivinanzas Básicas</h3>
+    <div id="bloqueBasicoContainer"></div>
+    <button type="button" onclick="añadirAdivinanzaBasico()">Añadir Adivinanza Básica</button>
+
+    <!-- MEDIA -->
+    <h3>Adivinanzas Medias</h3>
+    <div id="bloqueMediaContainer"></div>
+    <button type="button" onclick="añadirAdivinanzaMedia()">Añadir Adivinanza Media</button>
+
+    <!-- DIFICIL -->
+    <h3>Adivinanzas Difíciles</h3>
+    <div id="bloqueDificilContainer"></div>
+    <button type="button" onclick="añadirAdivinanzaDificil()">Añadir Adivinanza Difícil</button>
+
+    <br><br>
+    <input type="submit" value="Guardar Todas">
+</form>
+
+<script>
+    let contadorBasico = 0;
+    let contadorMedia = 0;
+    let contadorDificil = 0;
+
+    function añadirAdivinanzaBasico() {
+        const contenedor = document.getElementById("bloqueBasicoContainer");
+        const index = contadorBasico++;
+
+        const bloque = document.createElement("fieldset");
+        bloque.innerHTML = `
+        <legend>Adivinanza Básica ${index + 1}</legend>
+
+        <label>Pregunta:</label>
+        <input type="text" name="pregunta_basico_${index}" required>
+
+        <label>Opcion 1:</label>
+        <input type="text" name="opcion1_basico_${index}" required>
+        <input type="file" name="imagen1_basico_${index}" accept="image/png" required> <small>(.png/.jpg)</small>
+
+        <label>Opcion 2:</label>
+        <input type="text" name="opcion2_basico_${index}" required>
+        <input type="file" name="imagen2_basico_${index}" accept="image/png" required> <small>(.png/.jpg)</small>
+
+        <label>Opcion 3:</label>
+        <input type="text" name="opcion3_basico_${index}" required>
+        <input type="file" name="imagen3_basico_${index}" accept="image/png" required> <small>(.png/.jpg)</small>
+
+        <label>Opcion 4:</label>
+        <input type="text" name="opcion4_basico_${index}" required>
+        <input type="file" name="imagen4_basico_${index}" accept="image/png" required> <small>(.png/.jpg)</small>
+
+        <label>Opcion 5:</label>
+        <input type="text" name="opcion5_basico_${index}" required>
+        <input type="file" name="imagen5_basico_${index}" accept="image/png" required> <small>(.png/.jpg)</small>
+
+        <label>Respuesta Correcta:</label>
+        <input type="text" name="correcta_basico_${index}" required>
+        `;
+
+        contenedor.appendChild(bloque);
+    }
+
+    function añadirAdivinanzaMedia() {
+        const contenedor = document.getElementById("bloqueMediaContainer");
+        const index = contadorMedia++;
+
+        const bloque = document.createElement("fieldset");
+        bloque.innerHTML = `
+        <legend>Adivinanza Media ${index + 1}</legend>
+
+        <label>Pregunta:</label>
+        <input type="text" name="pregunta_medio_${index}" required>
+
+        <label>Opcion 1:</label>
+        <input type="text" name="opcion1_medio_${index}" required>
+
+        <label>Opcion 2:</label>
+        <input type="text" name="opcion2_medio_${index}" required>
+
+        <label>Opcion 3:</label>
+        <input type="text" name="opcion3_medio_${index}" required>
+
+        <label>Opcion 4:</label>
+        <input type="text" name="opcion4_medio_${index}" required>
+
+        <label>Opcion 5:</label>
+        <input type="text" name="opcion5_medio_${index}" required>
+
+        <label>Respuesta Correcta:</label>
+        <input type="text" name="correcta_medio_${index}" required>
+        `;
+
+        contenedor.appendChild(bloque);
+    }
+
+    function añadirAdivinanzaDificil() {
+        const contenedor = document.getElementById("bloqueDificilContainer");
+        const index = contadorDificil++;
+
+        const bloque = document.createElement("fieldset");
+        bloque.innerHTML = `
+        <legend>Adivinanza Difícil ${index + 1}</legend>
+
+        <label>Pregunta:</label>
+        <input type="text" name="pregunta_dificil_${index}" required>
+
+        <label>Respuesta Correcta:</label>
+        <input type="text" name="correcta_dificil_${index}" required>
+        `;
+
+        contenedor.appendChild(bloque);
+    }
+
+    window.onload = () => {
+        añadirAdivinanzaBasico();
+        añadirAdivinanzaMedia();
+        añadirAdivinanzaDificil();
+    }
+</script>
+
+</body>
+</html>

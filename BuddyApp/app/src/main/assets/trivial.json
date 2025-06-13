@@ -1,0 +1,328 @@
+{
+    "adivinanzas": [
+        {
+            "nivel": "basico",
+            "pregunta": "Cual es el animal mas grande del mundo",
+            "respuestaCorrecta": "Ballena azul",
+            "opciones": [
+                {
+                    "texto": "Ballena azul",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/ballena_azul.png"
+                },
+                {
+                    "texto": "Tiburon blanco",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/tiburon_blanco.png"
+                },
+                {
+                    "texto": "Oso polar",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/oso_polar.png"
+                },
+                {
+                    "texto": "Jirafa",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/jirafa.png"
+                },
+                {
+                    "texto": "Elefante",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/elefante.png"
+                }
+            ]
+        },
+        {
+            "nivel": "medio",
+            "pregunta": "Que cientifico desarrollo la teoria de la relatividad",
+            "respuestaCorrecta": "Albert Einstein",
+            "opciones": [
+                {
+                    "texto": "Isaac Newton"
+                },
+                {
+                    "texto": "Albert Einstein"
+                },
+                {
+                    "texto": "Nikola Tesla"
+                },
+                {
+                    "texto": "Stephen Hawking"
+                },
+                {
+                    "texto": "Galileo Galilei"
+                }
+            ]
+        },
+        {
+            "nivel": "dificil",
+            "pregunta": "Que instrumento usa cuerdas y arco",
+            "respuestaCorrecta": "violin",
+            "opciones": []
+        },
+        {
+            "nivel": "basico",
+            "pregunta": "Cual es el planeta mas cercano al Sol",
+            "respuestaCorrecta": "Mercurio",
+            "opciones": [
+                {
+                    "texto": "Venus",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/venus.png"
+                },
+                {
+                    "texto": "Mercurio",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/mercurio.png"
+                },
+                {
+                    "texto": "Tierra",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/tierra.png"
+                },
+                {
+                    "texto": "Saturno",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/saturno.png"
+                },
+                {
+                    "texto": "Marte",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/marte.png"
+                }
+            ]
+        },
+        {
+            "nivel": "medio",
+            "pregunta": "Cuantos continentes hay en el mundo",
+            "respuestaCorrecta": "7",
+            "opciones": [
+                {
+                    "texto": "6"
+                },
+                {
+                    "texto": "5"
+                },
+                {
+                    "texto": "9"
+                },
+                {
+                    "texto": "7"
+                },
+                {
+                    "texto": "8"
+                }
+            ]
+        },
+        {
+            "nivel": "dificil",
+            "pregunta": "Cual es el continente con mas paises",
+            "respuestaCorrecta": "africa",
+            "opciones": []
+        },
+        {
+            "nivel": "basico",
+            "pregunta": "Cual es el simbolo quimico del agua",
+            "respuestaCorrecta": "H2O",
+            "opciones": [
+                {
+                    "texto": "H2O",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/h2o.png"
+                },
+                {
+                    "texto": "HO",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/ho.png"
+                },
+                {
+                    "texto": "O2",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/o2.png"
+                },
+                {
+                    "texto": "H2",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/h2.png"
+                },
+                {
+                    "texto": "CO2",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/co2.png"
+                }
+            ]
+        },
+        {
+            "nivel": "medio",
+            "pregunta": "Que escritor creo a Harry Potter",
+            "respuestaCorrecta": "J.K. Rowling",
+            "opciones": [
+                {
+                    "texto": "J.K. Rowling"
+                },
+                {
+                    "texto": "Stephen King"
+                },
+                {
+                    "texto": "J.R.R. Tolkien"
+                },
+                {
+                    "texto": "Rick Riordan"
+                },
+                {
+                    "texto": "Suzanne Collins"
+                }
+            ]
+        },
+        {
+            "nivel": "dificil",
+            "pregunta": "Cual es el pais donde se originaron los Juegos Olimpicos",
+            "respuestaCorrecta": "grecia",
+            "opciones": []
+        },
+        {
+            "nivel": "basico",
+            "pregunta": "En que pais se encuentra la Torre Eiffel",
+            "respuestaCorrecta": "Francia",
+            "opciones": [
+                {
+                    "texto": "Alemania",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/alemania.png"
+                },
+                {
+                    "texto": "Belgica",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/belgica.png"
+                },
+                {
+                    "texto": "Francia",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/francia.png"
+                },
+                {
+                    "texto": "Italia",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/italia.png"
+                },
+                {
+                    "texto": "Espana",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/espana.png"
+                }
+            ]
+        },
+        {
+            "nivel": "medio",
+            "pregunta": "Cual es el rio mas largo del mundo",
+            "respuestaCorrecta": "Nilo",
+            "opciones": [
+                {
+                    "texto": "Amazonas"
+                },
+                {
+                    "texto": "Ebro"
+                },
+                {
+                    "texto": "Mississippi"
+                },
+                {
+                    "texto": "Nilo"
+                },
+                {
+                    "texto": "Danubio"
+                }
+            ]
+        },
+        {
+            "nivel": "dificil",
+            "pregunta": "Que organo del cuerpo humano produce la insulina",
+            "respuestaCorrecta": "pancreas",
+            "opciones": []
+        },
+        {
+            "nivel": "basico",
+            "pregunta": "Cual es el metal mas usado para fabricar cables electricos",
+            "respuestaCorrecta": "Cobre",
+            "opciones": [
+                {
+                    "texto": "Oro",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/oro.jpg"
+                },
+                {
+                    "texto": "Cobre",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/cobre.png"
+                },
+                {
+                    "texto": "Aluminio",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/aluminio.png"
+                },
+                {
+                    "texto": "Hierro",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/hierro.png"
+                },
+                {
+                    "texto": "Plata",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/plata.jpg"
+                }
+            ]
+        },
+        {
+            "nivel": "medio",
+            "pregunta": "Quien pinto la Mona Lisa",
+            "respuestaCorrecta": "Leonardo da Vinci",
+            "opciones": [
+                {
+                    "texto": "Salvador Dali"
+                },
+                {
+                    "texto": "Leonardo da Vinci"
+                },
+                {
+                    "texto": "Miguel Angel"
+                },
+                {
+                    "texto": "Vincent van Gogh"
+                },
+                {
+                    "texto": "Pablo Picasso"
+                }
+            ]
+        },
+        {
+            "nivel": "dificil",
+            "pregunta": "Cual fue la primera pelicula de animacion ganadora del Oscar a Mejor Pelicula Animada",
+            "respuestaCorrecta": "shrek",
+            "opciones": []
+        },
+        {
+            "nivel": "basico",
+            "pregunta": "Que pelicula incluye la frase. Yo soy tu padre",
+            "respuestaCorrecta": "Star Wars",
+            "opciones": [
+                {
+                    "texto": "Star Trek",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/star_trek.png"
+                },
+                {
+                    "texto": "Guardianes de la Galaxia",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/guardianes.png"
+                },
+                {
+                    "texto": "Matrix",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/matrix.png"
+                },
+                {
+                    "texto": "Star Wars",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/wars.png"
+                },
+                {
+                    "texto": "Dune",
+                    "imagen": "\/data\/user\/0\/com.bfr.helloworld\/files\/imagenes_basico\/dune.png"
+                }
+            ]
+        },
+        {
+            "nivel": "medio",
+            "pregunta": "Cual es el pico mas alto del mundo",
+            "respuestaCorrecta": "Everest",
+            "opciones": [
+                {
+                    "texto": "El Teide"
+                },
+                {
+                    "texto": "K2"
+                },
+                {
+                    "texto": "Lhotse"
+                },
+                {
+                    "texto": "Makalu"
+                },
+                {
+                    "texto": "Everest"
+                }
+            ]
+        }
+    ]
+}
